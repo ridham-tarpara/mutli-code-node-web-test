@@ -12,7 +12,7 @@ var http = require('http');
  * Normalize a port into a number, string, or false.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3020');
 app.set('port', port);
 
 /**
